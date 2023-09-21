@@ -1,7 +1,10 @@
 body {
-  background-color: rgb(25, 25, 25);
-  color: white;
+  background-color: #050801
+    /*rgb(25, 25, 25)*/
+  ;
+  color: #FFD23F;
   font-family: Arial;
+  text-align: center;
 }
 
 .title {
@@ -15,7 +18,8 @@ body {
 
 .move-button {
   background-color: transparent;
-  border: 3px solid white;
+  border: 3px solid #FFD23F;
+  ;
   width: 120px;
   height: 120px;
   border-radius: 60px;
@@ -34,9 +38,35 @@ body {
 }
 
 .reset-score-button {
-  background-color: white;
+  background-color: #FFD23F;
+  color: white;
   border: none;
   font-size: 15px;
   padding: 8px 15px;
   cursor: pointer;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.reset-score-button {
+  padding: 25px 30px;
+  background-color: #050801;
+  color: #FFD23F;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.reset-score-button:hover {
+  background: #FFD23F;
+  color: #050801;
+  box-shadow: 0 0 5px #FFD23F,
+    0 0 25px #FFD23F,
+    0 0 50px #FFD23F,
+    0 0 200px #FFD23F;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
