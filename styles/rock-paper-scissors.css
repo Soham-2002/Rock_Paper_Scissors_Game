@@ -19,13 +19,18 @@ body {
 .move-button {
   background-color: transparent;
   border: 3px solid #FFD23F;
-  ;
   width: 120px;
   height: 120px;
   border-radius: 60px;
   margin-right: 10px;
   cursor: pointer;
 }
+
+.move-button:hover {
+  border: 0px solid #FFD23F;
+}
+
+
 
 .result {
   font-size: 25px;
